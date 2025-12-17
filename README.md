@@ -48,8 +48,8 @@ Update `src/main/resources/application.properties` with your MySQL credentials:
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/interview_scheduler
-spring.datasource.username=root
-spring.datasource.password=password
+spring.datasource.username= please enter your username
+spring.datasource.password= please enter your password
 ```
 
 ### 3. Build and Run
@@ -81,8 +81,8 @@ POST /api/v1/interviewers/availability
 Content-Type: application/json
 
 {
-  "name": "Rajesh Kumar",
-  "email": "rajesh@example.com",
+  "name": "prakhar Kumar",
+  "email": "prakhar@example.com",
   "maxInterviewsPerWeek": 5,
   "availabilitySlots": [
     {
@@ -121,8 +121,8 @@ Content-Type: application/json
 
 {
   "timeSlotId": 1,
-  "candidateName": "Jane Smith",
-  "candidateEmail": "jane@example.com"
+  "candidateName": "akshat srivastava",
+  "candidateEmail": "akshu@example.com"
 }
 ```
 
@@ -303,4 +303,5 @@ For production deployment, consider:
 - Rate limiting
 - HTTPS enforcement
 - CORS configuration
+
 
